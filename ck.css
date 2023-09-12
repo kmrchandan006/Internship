@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+.calculator {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 100%;
+    background-color: black;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+    color: #FFF;
+    border: 3px solid gray;
+    
+    
+}
+
+.calculator input {
+    width: 95%;
+    color: white;
+    border-radius: 25px;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: right;
+    bottom:0;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 20%;
+    border: none;
+    background-color: rgba(0, 0, 0,0.527);
+}
+
+#display {
+    color: rgb(255, 255, 255); 
+    font-weight: lighter; 
+    text-align: right; 
+    font-size: 70px; 
+}
+
+
+.calculator .row {
+    display: block;
+    display: flex;
+    margin-bottom: 10px;
+    height: 15%;
+    
+}
+
+.calculator .row .button {
+    display: block;
+    flex: 1;
+    margin: 0 5px;
+    font-size: 40px;
+    font-weight:100;
+    background-color: #A0A0A0;
+    border-radius: 300px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    
+}
+
+
+.calculator .row .button1 {
+    display: block;
+    flex: 1;
+    margin: 0 5px;
+    font-size: 40px;
+    font-weight:100;
+    background-color: #f69906;
+    border-radius: 300px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calculator .row .button2 {
+    display: block;
+    flex: 1;
+    margin: 0 5px;
+    font-size: 40px;
+    font-weight:100;
+    background-color: #313131;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+p {
+    display: block;
+    margin: 0 auto;;
+    Color:rgb(48, 47, 47);
+    text-align: center;
+    bottom:0;
+    font-size: 8px;
+    
+}
+
+.line {
+    width: 35%;
+    height: 3px;
+    background-color: #A0A0A0;
+    margin: 0 auto; /* Add this line */
+    border-radius: 2px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 9px;
+    padding: 4px;
+}
+
+.connection {
+    flex:2;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+
+
+.battery {
+    flex:2;
+    display: flex;
+    max-width: 0px;
+    max-height: 8px ;
+    justify-content: flex-end;
+    background-color: #4AD962;
+    border-radius: 3px;
+    padding-right: 20px;
+    border: 1px solid #A0A0A0;
+}
+
+p1 {
+    font-size: 4px;
+    font-weight: bolder;
+}
+p3 { 
+    color: black;
+        
+}
+
